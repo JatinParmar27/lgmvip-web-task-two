@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import UserCard from "./components/UserCard";
 import Loader from "./components/Loader";
 
+
 function App() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(false);
